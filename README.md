@@ -4,7 +4,9 @@
 
 <br />
 
-<p align="center"><strong>Ignite Call</strong> é uma aplicação que marca agendamentos no <i>Google Calendar</i></p>
+<p align="center" style="text-align: justify">
+O Ignite Call é uma aplicação de agendamento de chamadas. Este projeto serviu de base para reforçar os conhecimentos no framework NextJs, junto ao conceitos de API Routes, páginas SSG e SSR. Além disso, a aplicação possui conectividade com o GoogleAPIs, podendo marcar agendamentos no Google Calendar, além de gerar salas no Google Meet para as reuniões automaticamente.<br/>
+</p>
 
 <div align="center">
   <a href="#tecnologias">Tecnologias</a>
@@ -51,3 +53,10 @@
 <div align="center">
   <img src=".github/calendar.png" />
 </div>
+
+
+## 📝 Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
