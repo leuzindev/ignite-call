@@ -1,7 +1,10 @@
 import { Heading, Text } from '@ignite-ui/react'
-import { Container, Hero, Previw } from './styles'
+import { Container, Hero, Preview } from './styles'
+import { ClaimUsernameForm } from './components/ClaimUsernameForm'
 import previewImage from '../../assets/app-preview.png'
+
 import Image from 'next/image'
+
 export default function Home() {
   return (
     <Container>
@@ -11,8 +14,10 @@ export default function Home() {
           Conecte seu calendário e permita que as pessoas marquem agendamentos
           no seu tempo livre.
         </Text>
+
+        <ClaimUsernameForm />
       </Hero>
-      <Previw>
+      <Preview>
         <Image
           src={previewImage}
           height={400}
@@ -20,7 +25,7 @@ export default function Home() {
           priority
           alt="Calendario simbolizando aplicação em funcionamento"
         />
-      </Previw>
+      </Preview>
     </Container>
   )
 }
